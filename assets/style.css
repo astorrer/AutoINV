@@ -1,0 +1,13 @@
+.frame {
+  margin: 1em;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px gray }
+
+.yellow {
+  background-color:  #fffdb7;
+}
+
+.box {
+  margin: 1em;
+}
