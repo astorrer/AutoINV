@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "astorrer";
-$password = "aws93000";
+$username = "autoinv";
+$password = "testpass";
 $dbname = "autoinv";
 
 // Create connection
