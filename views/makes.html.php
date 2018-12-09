@@ -6,13 +6,13 @@
 
     <?php include __DIR__ . '/../partials/menu.html';?>
 
-    <a class="pure-button box" href="#">Add a Make</a>
-    <a class="pure-button box" href="#">Delete a Make</a>
-
-
-    <div class="pure-g frame">
-        <div class="pure-u-1-1 box">
-          <h1> Makes List</h1>
+    <div class="pure-g">
+        <div class="pure-u-1-4 frame">
+          <h3>Makes List</h3>
+          <p class="pure-button-group" role="group">
+            <a class="pure-button box" href="/views/new_make.html.php">Add a Make</a>
+            <a class="pure-button box" href="/views/remove_make.html.php">Delete a Make</a>
+          </p>
 
           <table class="pure-table">
             <thead>
