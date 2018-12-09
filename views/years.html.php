@@ -6,13 +6,13 @@
 
     <?php include __DIR__ . '/../partials/menu.html';?>
 
-    <a class="pure-button box" href="#">Add a Year</a>
-    <a class="pure-button box" href="#">Delete a Year</a>
-
-
-    <div class="pure-g frame">
-        <div class="pure-u-1-1 box">
-          <h1> Years List</h1>
+    <div class="pure-g">
+        <div class="pure-u-1-4 frame">
+          <h3>Years List</h3>
+          <p class="pure-button-group" role="group">
+            <a class="pure-button box" href="/views/new_year.html.php">Add a Year</a>
+            <a class="pure-button box" href="/views/remove_year.html.php">Delete a Year</a>
+          </p>
 
           <table class="pure-table">
             <thead>

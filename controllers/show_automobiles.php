@@ -3,7 +3,7 @@
 include __DIR__ . '/../database/db_configuration.php';
 
 // Page Variables
-$title = 'Show Automobiles';
+$title = 'My Automobiles';
 
 $sql = "select
   automobiles.auto_id,
