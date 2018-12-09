@@ -6,13 +6,13 @@
 
     <?php include __DIR__ . '/../partials/menu.html';?>
 
-    <a class="pure-button box" href="#">Add a Vehicle</a>
-    <a class="pure-button box" href="#">Delete a Vehicle</a>
-
-
-    <div class="pure-g containe frame">
-        <div class="pure-u-1-1 box">
-          <h1> Automobile List</h1>
+    <div class="pure-g">
+        <div class="pure-u-1-2 frame">
+          <h3>Automobile List</h3>
+          <p class="pure-button-group" role="group">
+            <a class="pure-button box" href="/views/new_automobile.html.php">Add an Automobile</a>
+            <a class="pure-button box" href="/views/remove_automobile.html.php">Delete an Automobile</a>
+          </p>
 
           <table class="pure-table">
             <thead>
